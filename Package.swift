@@ -25,8 +25,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCertificatePinning",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCertificatePinning-1.0.0-beta+20230309142042.xcframework.zip",
-			checksum: "26da498d502bd0c4d367fac408107dd1f45d74ce958eb3e26d9c694245c0f2db"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCertificatePinning-1.0.0-beta+20230309150554.xcframework.zip",
+			checksum: "43960fc1f7c9bba60b27fdb2a858c374e6b79a07b1f3d51c52ccf9b0b4e39796"
 		)
 	]
 )
