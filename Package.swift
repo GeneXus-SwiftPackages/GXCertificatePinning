@@ -18,15 +18,15 @@ let package = Package(
 		.target(name: "GXCertificatePinningWrapper",
 				dependencies: [
 					"GXCertificatePinning",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .iOS, .watchOS])),
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .iOS, .watchOS])),
-					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.tvOS, .iOS, .watchOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .watchOS, .iOS])),
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .watchOS, .iOS])),
+					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCertificatePinning",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCertificatePinning-1.0.0-beta+20230525135158.xcframework.zip",
-			checksum: "ae1ed9b9319506fe6318e9c64f1ddb7e9da302cf25376ed7eb91d8872609b8a0"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCertificatePinning-1.0.0-beta+20230525143554.xcframework.zip",
+			checksum: "6457d4a0c4cea477b108291bc1341f30cd5b3d8cadb3119c6c94bc32f7410a08"
 		)
 	]
 )
