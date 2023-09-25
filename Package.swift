@@ -10,10 +10,10 @@ let package = Package(
 			targets: ["GXCertificatePinningWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.2.0-rc.25"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-rc.25"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.2.0-rc.25"),
-		.package(url: "https://github.com/datatheorem/TrustKit", .upToNextMajor(from: "3.0.3"))
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.2.0-rc.29"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.2.0-rc.29"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "1.2.0-rc.29"),
+		.package(url: "https://github.com/datatheorem/TrustKit", .upToNextMinor(from: "3.0.3"))
 	],
 	targets: [
 		.target(name: "GXCertificatePinningWrapper",
@@ -27,8 +27,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCertificatePinning",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXCertificatePinning-1.2.0-rc.25.xcframework.zip",
-			checksum: "cae5b49fc543d5c4c7c7410c89105b66e8d83b378ad854d75590a0e51a02aaa4"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCertificatePinning-1.2.0-rc.29.xcframework.zip",
+			checksum: "0b76cdc7432085d02c5897b9ecc879a657d9b8667335471314e03f1013bcd335"
 		)
 	]
 )
