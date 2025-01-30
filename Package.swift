@@ -3,16 +3,16 @@ import PackageDescription
 
 let package = Package(
 	name: "GXCertificatePinning",
-	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0")],
+	platforms: [.iOS("15.0"), .watchOS("10.0"), .tvOS("18.0")],
 	products: [
 		.library(
 			name: "GXCertificatePinning",
 			targets: ["GXCertificatePinningWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.0.0-rc.8"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.8"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "3.0.0-rc.8"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.0.0-rc.15"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-rc.15"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXFoundation.git", exact: "3.0.0-rc.15"),
 		.package(url: "https://github.com/datatheorem/TrustKit", .upToNextMinor(from: "3.0.4"))
 	],
 	targets: [
@@ -27,8 +27,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCertificatePinning",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXCertificatePinning-3.0.0-rc.8.xcframework.zip",
-			checksum: "245cf1da58db0b6d87d890abfdd408ccce73e94c292839f67528e6a9ca2a6fc0"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCertificatePinning-3.0.0-rc.15.xcframework.zip",
+			checksum: "828f76d223dcfdcd8c18691cc8179629ce74765ae405e989a68cf597b804d53b"
 		)
 	]
 )
